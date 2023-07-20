@@ -12,72 +12,35 @@
 <body>
     <h1>Funny madLibs</h1>
     <div class="container">
-        <div>
-            <label for="noun">
-                <input class="1" type="text" placeholder="noun" id="word1">
-            </label>
-            <label for="plural noun">
-                <input class="2" type="text" placeholder="plural noun" id="word2">
-            </label>
-            <label for="adjective">
-                <input class="3" type="text" placeholder="adjective" id="word3">
-            </label>
-            <label for="verb">
-                <input class="4" type="text" placeholder="verb" id="word4">
-            </label>
+        <div class="row">
+            <input type="text" placeholder="noun" id="word1">
+            <input type="text" placeholder="plural noun" id="word2">
+            <input type="text" placeholder="adjective" id="word3">
+            <input type="text" placeholder="verb" id="word4">
         </div>
 
-        <div>
-            <label for="adjective">
-                <input class="5" type="text" placeholder="adjective" id="word5">
-            </label>
-            <label for="name">
-                <input class="6" type="text" placeholder="name" id="word6">
-            </label>
-            <label for="place">
-                <input class="7" type="text" placeholder="place" id="word7">
-            </label>
-            <label for="verb">
-                <input class="8" type="text" placeholder="verb" id="word8">
-            </label>
+        <div class="row">
+            <input type="text" placeholder="adjective" id="word5">
+            <input type="text" placeholder="name" id="word6">
+            <input type="text" placeholder="place" id="word7">
+            <input type="text" placeholder="verb" id="word8">
         </div>
 
 
-        <div>
-            <label for="noun">
-                <input class="9" type="text" placeholder="noun" id="word9">
-            </label>
-            <label for="plural noun">
-                <input class="10" type="text" placeholder="plural noun" id="word10">
-            </label>
-            <label for="adjective">
-                <input class="11" type="text" placeholder="adjective" id="word11">
-            </label>
-            <label for="verb">
-                <input class="12" type="text" placeholder="verb" id="word12">
-            </label>
+        <div class="row">
+            <input type="text" placeholder="noun" id="word9">
+            <input type="text" placeholder="plural noun" id="word10">
+            <input type="text" placeholder="adjective" id="word11">
+            <input type="text" placeholder="verb" id="word12">
         </div>
+        <div class="button">
+            <button type="button" id="button" onclick="createParagraph()">MadLibs Paragraph</button>
+        </div>
+        <p id="paragraph"></p>
     </div>
-    <p class="paragraph">bksksaka asdkasdkajd</p>
 
-    <p>Noun: cat
-        Plural noun: squirrels, animals
-        Adjective: mischievous, crazy, hilarious, amazed, impromptu, uproarious, magical
-        Verb: traveled, stumbled, danced, spun, flipped, giggled, couldn't resist joining, showcased, cheered, laughed,
-        attracted, formed, left, continued to dance, entertain
-        Adjective: pizza-loving, unforgettable, pure, new
-        Name: Whiskers
-        Place: forest</p>
-    <p>Once, a pizza-loving cat named Whiskers traveled to a magical forest. Whiskers stumbled upon a group of
-        mischievous squirrels who had a crazy dance battle. The squirrels spun, flipped, and giggled uncontrollably.
-        Whiskers couldn't resist joining in and showcased some impressive breakdancing moves. The forest animals cheered
-        and laughed as Whiskers outperformed the squirrels. The hilarious spectacle attracted a crowd of amazed
-        onlookers, including a juggling elephant and a singing kangaroo. Together, they formed an unforgettable
-        impromptu performance that left everyone in stitches. The uproarious laughter echoed through the forest,
-        creating a moment of pure joy. Whiskers and their new friends continued to dance and entertain, making the
-        magical forest a place of laughter and happiness.
 
-        I hope this funny short story brings a smile to your face!</p>
+    <script src="test.js"></script>
 </body>
 
 </html>
