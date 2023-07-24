@@ -12,8 +12,8 @@ function createParagraph() {
   var eleventhWord = document.getElementById("word11").value;
   var twelvethWord = document.getElementById("word12").value;
 
-  var paragraph = 
-  "Once, a " +
+  var paragraph =
+    "Once, a " +
     '<span class="highlight">' +
     thirdWord +
     "</span>" +
@@ -70,7 +70,10 @@ function createParagraph() {
     " and their new friends continued to dance and entertain, making the magical forest a place of laughter and happiness" +
     "." +
     "<br>" +
-    "I hope this funny short story brings a smile to your face!";
+    "<hr>" +
+    '<span class="animation">' +
+    "I hope this funny short story brings a smile to your face!" +
+    "</span>";
 
-  document.getElementById("paragraph").innerHTML = paragraph;
+  document.getElementById("answer").innerHTML = paragraph;
 }
